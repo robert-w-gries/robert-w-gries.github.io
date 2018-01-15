@@ -1,40 +1,68 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Robert W. Gries
-email: robert-w-gries@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My projects and writings related to programming.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.robert-w-gries.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: robert-w-gries
+title: "Robert W. Gries"
+description: "My projects and writings related to programming."
+repository: "robert-w-gries/robert-w-gries.github.io"
+url: "http://www.robert-w-gries.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+feed:
+  path: "http://robert-w-gries.com/feed.xml"
+
+social:
+  name: "Robert Gries"
+  links:
+    - "https://github.com/robert-w-gries"
+
+# Site owner
+author:
+  name: "Robert W. Gries"
+  uri: &uri "https://robert-w-gries.com/about/"
+  url: *uri
+  bio: "This is a bio"
+  #picture: "/assets/images/michael-rose-glitched.jpg"
+  github: "https://github.com/robert-w-gries"
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
+
+minimal_mistakes_skin: "contrast"
+
+paginate: 5 # amount of posts to show
+paginate_path: /rxinu/blog/page:num/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
