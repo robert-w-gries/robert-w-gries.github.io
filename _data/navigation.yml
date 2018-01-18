@@ -1,0 +1,21 @@
+main:
+  - title: "rXinu"
+    url: /rxinu/
+  - title: "Projects"
+    url: /projects/
+  - title: "Other"
+    url: /other/
+
+rxinu:
+  - title: rXinu
+    children:
+      - title: "Demo"
+        url: /rxinu/demo/
+      - title: "What is rXinu?"
+        url: /rxinu/about/
+      - title: "Docs"
+        url: /rxinu/docs/
+  - title: Posts
+    children:
+      - title: "Scheduler"
+        url: /rxinu/posts/scheduler/
