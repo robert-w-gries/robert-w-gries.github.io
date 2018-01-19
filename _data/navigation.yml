@@ -1,0 +1,19 @@
+main:
+  - title: "rXinu"
+    url: /rxinu/
+  - title: "Projects"
+    url: /projects/
+  - title: "Personal Blog"
+    url: /personal_blog/
+
+rxinu:
+  - title: "About rXinu"
+    children:
+      - title: "Demo"
+        url: /rxinu/demo
+      - title: "Documentation"
+        url: /rxinu/docs
+  - title: "Scheduler"
+    children:
+      - title: "Writing a Cooperative Scheduler"
+        url: /rxinu/coop_scheduler
