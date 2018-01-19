@@ -3,19 +3,17 @@ main:
     url: /rxinu/
   - title: "Projects"
     url: /projects/
-  - title: "Other"
-    url: /other/
+  - title: "Personal Blog"
+    url: /personal_blog/
 
 rxinu:
-  - title: rXinu
+  - title: "About rXinu"
     children:
       - title: "Demo"
-        url: /rxinu/demo/
-      - title: "What is rXinu?"
-        url: /rxinu/about/
-      - title: "Docs"
-        url: /rxinu/docs/
-  - title: Posts
+        url: /rxinu/demo
+      - title: "Documentation"
+        url: /rxinu/docs
+  - title: "Scheduler"
     children:
-      - title: "Scheduler"
-        url: /rxinu/posts/scheduler/
+      - title: "Writing a Cooperative Scheduler"
+        url: /rxinu/coop_scheduler

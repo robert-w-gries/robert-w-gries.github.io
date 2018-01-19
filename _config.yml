@@ -4,21 +4,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Robert W. Gries"
-description: "My projects and writings related to programming."
+description: "My thoughts and projects."
 repository: "robert-w-gries/robert-w-gries.github.io"
-url: "http://www.robert-w-gries.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.robert-w-gries.com"
 
 # Site owner
 author:
-  name: "Robert W. Gries"
-  uri: &uri "http://robert-w-gries.com/about/"
-  url: *uri
-  #picture: "/assets/images/michael-rose-glitched.jpg"
+  avatar: "/assets/images/robert_gries_mt_rushmore.png"
+  bio: "Software Engineer living in Research Triangle Park, North Carolina"
   github: "robert-w-gries"
 
 # Build settings
 markdown: kramdown
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
@@ -46,8 +43,6 @@ defaults:
       author_profile: false
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
