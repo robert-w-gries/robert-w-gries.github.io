@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_image: /assets/images/robert_gries_barcelona_field.jpg
+  overlay_image: /assets/images/robert_gries_barcelona_field.png
   overlay_filter: 0.25
 excerpt: "My space for programming projects and other thoughts"
 feature_row:
