@@ -22,6 +22,9 @@ plugins:
 
 minimal_mistakes_skin: "contrast"
 
+paginate: 5 # amount of posts to show
+paginate_path: /personal_blog/page:num/
+
 include: ["_pages"]
 
 defaults:
