@@ -20,6 +20,13 @@ feature_row:
 
 I am a Software Engineer from the Midwest who spends his time programming, playing board games, and playing amateur ice hockey.
 
-As a full stack developer, my experience ranges from embedded and operating systems to web development and virtualization.  Programming is not just work for me; it is my passion through which I express creativity in problem solving and feel a greater sense of purpose by contributing to the rapidly developing open source community.
+As a full stack developer, my experience encapsulates many areas of interest
+
+* embedded systems
+* operating systems
+* virtualization
+* web development
+
+Programming is not just my work; it's my passion. I am driven by challenge and enjoy the opportunity to express creativity through problem solving.  When I contribute my solutions to the open source community, I feel a greater sense of purpose and motivation to improve myself so I can improve the world.
 
 {% include feature_row %}
