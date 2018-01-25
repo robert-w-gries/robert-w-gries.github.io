@@ -7,13 +7,17 @@ main:
     url: /personal_blog/
 
 rxinu:
-  - title: "About rXinu"
+  - title: "Documentation"
     children:
-      - title: "Demo"
-        url: /rxinu/demo
-      - title: "Documentation"
-        url: /rxinu/docs
-  - title: "Scheduler"
+      - title: "Memory Management"
+        url: /rxinu/docs/mem
+      - title: "Interrupt Handling"
+        url: /rxinu/docs/interrupts
+      - title: "Device Drivers"
+        url: /rxinu/docs/drivers
+      - title: "Scheduling"
+        url: /rxinu/docs/scheduling
+  - title: "Scheduling Posts"
     children:
       - title: "Writing a Cooperative Scheduler"
         url: /rxinu/coop_scheduler
