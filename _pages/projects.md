@@ -2,41 +2,44 @@
 permalink: /projects/
 layout: single
 author_profile: true
+toc: true
 ---
 
-Here are some projects and open source contributions that display my versalitiy.
+Here are some projects and open source contributions that show my versalitiy.
 
-# Industry Work
+## Puppet/Chef Modules
 
-## Puppet/Chef Modules | [Cisco](https://www.cisco.com/)
+As a member of the Cloud & Virtualization team at [Cisco](https://www.cisco.com/), I wrote orchestration software that automated the configuration of datacenter switches and serivce routers.  Generally, configuration of networking elements is a tedious and non-trivial problem.  With orchestration tools, this task is simpler to manage and easier to push at scale.
 
-#### [Node Utils](https://github.com/cisco/cisco-network-node-utils)
+This functionality was achieved by writng [Puppet](https://puppet.com/) and [Chef](https://www.chef.io/) modules that were installed on either the native Linux enviornment or a CentOS container running on the Cisco product.
 
-Ruby abstraction layer to facilitate management of Cisco datacenter switches. Used in Cisco's Puppet and Chef modules.
+Puppet uses its own Ruby-like Domain Specific Language (DSL) while Chef uses Ruby code in its modules, introducing a problem where a common codebase for Puppet and Chef modules was not possible.  The solution was `cisco-network-node-utils`, a common abstraction layer that facilitated management of switches and routers.  With this abstraction layer, the configuration commands of Cisco products were converted into Ruby objects that were then managed by the Puppet and Chef modules.
 
-#### [ciscopuppet](https://github.com/cisco/cisco-network-puppet-module)
+My work on this project included the follwoing:
 
-[Puppet](https://puppet.com/) module for Cisco switches.
+* Add support for automation of Cisco features to the abstraction layer, the Chef cookbook, and the Puppet module.
+* Write a Continuous Integration system that would build the project, install the project, and run integration tests against nightly and weekly Cisco OS images.
+* Wrote a [git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) that would run RuboCop, a Ruby static analysis tool, against any changed files before running `git commit`.
 
-#### [cisco-cookbook](https://github.com/cisco/cisco-network-chef-cookbook)
+**Open Source Repositories**
 
-[Chef](https://www.chef.io/) cookbook for Cisco switches.
+* [cisco-network-node-utils](https://github.com/cisco/cisco-network-node-utils)
+* [ciscopuppet](https://github.com/cisco/cisco-network-puppet-module)
+* [cisco-cookbook](https://github.com/cisco/cisco-network-chef-cookbook)
 
-## ASR 9000 Multicast Microcode | [Cisco](https://www.cisco.com/)
+## ASR 9000 Multicast Microcode
 
 Developed the microcode of a new architecture for Cisco's flagship Service Provider edge router.
 
-## Thermotron Serial I/O | [Continental Automotive](https://www.continental-automotive.com/)
+## Thermotron Serial I/O
 
-As an Embedded Software Engineer Intern, I extended an automated testing framework to interface with Thermotron chambers through serial commands.  This was my first project in my career as a Software Engineer.
-
-# Open Source Contributions
+As an Embedded Software Engineer Intern at [Continental Automotive](https://www.continental-automotive.com/), I extended an automated testing framework to interface with Thermotron chambers through serial commands.  This was my first project in my career as a Software Engineer.
 
 ## rXinu
 
 [Read more about rXinu here](/rxinu/)
 
-## [blog_os](https://github.com/phil-opp/blog_os) - Rust Kernel
+## [phil-opp/blog_os](https://github.com/phil-opp/blog_os)
 
 >This blog series creates a small operating system in the Rust programming language. Each post is a small tutorial and includes all needed code, so you can follow along if you like.
 
@@ -44,22 +47,29 @@ I am both a contributor and a user of this repository.  I followed the blog seri
 
 In order to give back to a project so integral to the development of `rXinu`, I have submitted numerous patches and resolved open issues.
 
-## [multiboot2-elf64](https://github.com/rust-osdev/multiboot2-elf64)
+## [rust-osdev/multiboot2-elf64](https://github.com/rust-osdev/multiboot2-elf64)
 
 A Multiboot2 library written in Rust.  This crate is generally used in Rust kernels to read basic information passed by a multiboot2 compliant bootloader.
 
 As a collaborator, I assist in maintaining this project and ensuring the latest nightly Rust compiler is supported.
 
-## [linked-list-allocator](https://github.com/phil-opp/linked-list-allocator)
+## [phil-opp/linked-list-allocator](https://github.com/phil-opp/linked-list-allocator)
 
 >Simple allocator usable for no_std systems. It builds a linked list from the freed blocks and thus needs no additional data structures.
 
 This memory allocator is used in rXinu as a simple allocator that can be setup with minimal overhead.  As a contributor, I have [submitted an enhancement](https://github.com/phil-opp/linked-list-allocator/pull/7) to improve the handling of an Out Of Memory kernel panic.
 
-# School Projects
-
 ## Educational Network Emulator
 
-## Xinu
+An Opendaylight Software Defined Networking (SDN) application that simulated traffic and network conditions, such as latency and traffic duplication.
 
-## MiniJava Compiler
+## [javar](https://github.com/robert-w-gries/javar)
+
+A Java compiler written in Java. This project compiles a significant subset of Java to MIPS assembly format.
+
+### Features
+* Parsing
+* Type Checking
+* Intermediate Representation
+* Register Allocation
+* Instruction Assembly
