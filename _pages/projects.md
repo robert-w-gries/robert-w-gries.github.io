@@ -13,8 +13,6 @@ As a member of the Cloud & Virtualization team at [Cisco](https://www.cisco.com/
 
 This functionality was achieved by writng [Puppet](https://puppet.com/) and [Chef](https://www.chef.io/) modules that were installed on either the native Linux enviornment or a CentOS container running on the Cisco product.
 
-Puppet uses its own Ruby-like Domain Specific Language (DSL) while Chef uses Ruby code in its modules, introducing a problem where a common codebase for Puppet and Chef modules was not possible.  The solution was `cisco-network-node-utils`, a common abstraction layer that facilitated management of switches and routers.  With this abstraction layer, the configuration commands of Cisco products were converted into Ruby objects that were then managed by the Puppet and Chef modules.
-
 My work on this project included the follwoing:
 
 * Add support for automation of Cisco features to the abstraction layer, the Chef cookbook, and the Puppet module.
