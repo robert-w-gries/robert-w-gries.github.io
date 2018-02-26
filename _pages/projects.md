@@ -25,14 +25,6 @@ My work on this project included the follwoing:
 * [ciscopuppet](https://github.com/cisco/cisco-network-puppet-module)
 * [cisco-cookbook](https://github.com/cisco/cisco-network-chef-cookbook)
 
-## ASR 9000 Multicast Microcode
-
-Developed the microcode of a new architecture for Cisco's flagship Service Provider edge router.
-
-## Thermotron Serial I/O
-
-As an Embedded Software Engineer Intern at [Continental Automotive](https://www.continental-automotive.com/), I extended an automated testing framework to interface with Thermotron chambers through serial commands.  This was my first project in my career as a Software Engineer.
-
 ## rXinu
 
 [Read more about rXinu here](/rxinu/)
@@ -57,14 +49,6 @@ As a collaborator, I assist in maintaining this project and ensuring the latest 
 
 This memory allocator is used in rXinu as a simple allocator that can be setup with minimal overhead.  As a contributor, I have [submitted an enhancement](https://github.com/phil-opp/linked-list-allocator/pull/7) to improve the handling of an Out Of Memory kernel panic.
 
-## Educational Network Emulator
-
-Collaborated with a team of Marqutte students to develop an Opendaylight Software Defined Networking (SDN) application that simulated traffic and network conditions, such as latency and traffic duplication.
-
-Our team won second place in the [SDN Innovation Challenge](https://www.extremenetworks.com/solutions/sdn/sdn-innovation-challenge/), an international competion hosted by Extreme Networks and judged by a panel of industry experts.
-
-![image](/assets/images/sdn_innovation_prize.jpg)
-
 ## [javar](https://github.com/robert-w-gries/javar)
 
 A Java compiler written in Java. This project compiles a significant subset of Java to MIPS assembly format.
@@ -75,3 +59,11 @@ A Java compiler written in Java. This project compiles a significant subset of J
 * Intermediate Representation
 * Register Allocation
 * Instruction Assembly
+
+## Educational Network Emulator
+
+Collaborated with a team of Marqutte students to develop an Opendaylight Software Defined Networking (SDN) application that simulated traffic and network conditions, such as latency and traffic duplication.
+
+Our team won second place in the [SDN Innovation Challenge](https://www.extremenetworks.com/solutions/sdn/sdn-innovation-challenge/), an international competion hosted by Extreme Networks and judged by a panel of industry experts.
+
+![image](/assets/images/sdn_innovation_prize.jpg)
