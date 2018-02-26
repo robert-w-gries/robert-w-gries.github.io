@@ -59,7 +59,11 @@ This memory allocator is used in rXinu as a simple allocator that can be setup w
 
 ## Educational Network Emulator
 
-An Opendaylight Software Defined Networking (SDN) application that simulated traffic and network conditions, such as latency and traffic duplication.
+Collaborated with a team of Marqutte students to develop an Opendaylight Software Defined Networking (SDN) application that simulated traffic and network conditions, such as latency and traffic duplication.
+
+Our team won second place in the [SDN Innovation Challenge](https://www.extremenetworks.com/solutions/sdn/sdn-innovation-challenge/), an international competion hosted by Extreme Networks and judged by a panel of industry experts.
+
+![image](/assets/images/sdn_innovation_prize.jpg)
 
 ## [javar](https://github.com/robert-w-gries/javar)
 
