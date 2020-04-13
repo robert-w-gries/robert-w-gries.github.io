@@ -14,7 +14,7 @@ Here are some projects and open source contributions that show my versalitiy.
 | [pantries-android](https://github.com/end-hunger-durham/pantries-android) | Android app; available on Google Play |
 | [pantries-ios](https://github.com/end-hunger-durham/pantries-ios) | iOS app; available on the Apple App Store |
 
-My participation in [Code for Durham](https://codefordurham.com) led to my involvement with [End Hunger Durham](www.endhungerdurham.org).
+My participation in [Code for Durham](https://codefordurham.com) led to my involvement with [End Hunger Durham](http://endhungerdurham.org).
 
 This collaboration has resulted in an Android and iOS app that displays food pantries in the Durham, NC area. The information provided includes location, phone numbers, and times of availability. The availability information is especially crucial as pantries do not have consistent hours.
 
