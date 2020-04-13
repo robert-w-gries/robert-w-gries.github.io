@@ -6,13 +6,8 @@ header:
   overlay_filter: 0.25
 excerpt: "My space for programming projects and other thoughts"
 feature_row:
-  - title: "rXinu"
-    excerpt: "An educational operating system written in Rust"
-    btn_class: "btn--inverse"
-    url: /rxinu/
-  - title: "Cisco Agents"
-    excerpt: "Orchestrating Cisco datacenter switches using Puppet or Chef modules written in Ruby"
-  - title: "More Work"
+  - title: "My Projects"
+    excerpt: "Check out my various open source projects/contributions"
     btn_class: "btn--inverse"
     btn_label: "See all projects"
     url: /projects/

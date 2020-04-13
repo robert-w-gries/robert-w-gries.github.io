@@ -6,6 +6,8 @@ sidebar:
 title: "About rXinu"
 ---
 
+[Link to GitHub repo](https://github.com/robert-w-gries/rxinu)
+
 rXinu is an educational kernel written in Rust.
 
 # Goals

@@ -1,10 +1,6 @@
 main:
-  - title: "rXinu"
-    url: /rxinu/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
 
 rxinu:
   - title: "Documentation"

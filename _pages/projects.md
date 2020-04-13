@@ -7,7 +7,28 @@ toc: true
 
 Here are some projects and open source contributions that show my versalitiy.
 
-## Puppet/Chef Modules
+## Durham Food Resources (Android App)
+
+| GitHub Repos | Description |
+|--------------|-------------|
+| [pantries-android](https://github.com/end-hunger-durham/pantries-android) | Android app; available on Google Play |
+| [pantries-ios](https://github.com/end-hunger-durham/pantries-ios) | iOS app; available on the Apple App Store |
+
+My participation in [Code for Durham](https://codefordurham.com) led to my involvement with [End Hunger Durham](www.endhungerdurham.org).
+
+This collaboration has resulted in an Android and iOS app that displays food pantries in the Durham, NC area. The information provided includes location, phone numbers, and times of availability. The availability information is especially crucial as pantries do not have consistent hours.
+
+Anyone can use the app, but we have found two core target user groups exist: people in need of emergency food and service workers who connect clients in need to available food providers.
+
+With the recent Covid-19 outbreak, the pantry information has been rapidly changing with popup emergency stations and temporary closures. During this time, the app has been frequently updated to reflect the latest changes.
+
+## Cisco Open Source Work
+
+| GitHub Repos | Description |
+|-------------------|-------------|
+| [cisco-network-node-utils](https://github.com/cisco/cisco-network-node-utils) | Abstraction library to support both Puppet and Chef modules. |
+| [ciscopuppet](https://github.com/cisco/cisco-network-puppet-module) | Puppet module for Cisco datacenter switches. |
+| [cisco-cookbook](https://github.com/cisco/cisco-network-chef-cookbook) | Chef module for Cisco datacenter switches. |
 
 As a member of the Cloud & Virtualization team at [Cisco](https://www.cisco.com/), I wrote orchestration software that automated the configuration of datacenter switches and serivce routers.  Generally, configuration of networking elements is a tedious and non-trivial problem.  With orchestration tools, this task is simpler to manage and easier to push at scale.
 
@@ -19,12 +40,6 @@ My work on this project included the follwoing:
 * Write a Continuous Integration system that would build the project, install the project, and run integration tests against nightly and weekly Cisco OS images.
 * Wrote a [git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) that would run RuboCop, a Ruby static analysis tool, against any changed files before running `git commit`.
 
-**Open Source Repositories**
-
-* [cisco-network-node-utils](https://github.com/cisco/cisco-network-node-utils)
-* [ciscopuppet](https://github.com/cisco/cisco-network-puppet-module)
-* [cisco-cookbook](https://github.com/cisco/cisco-network-chef-cookbook)
-
 ## rXinu
 
 [Read more about rXinu here](/rxinu/)
@@ -35,7 +50,7 @@ My work on this project included the follwoing:
 
 I am both a contributor and a user of this repository.  I followed the blog series to create a kernel with memory allocation and interrupt handling. This minimal kernel formed the foundation of rXinu.
 
-In order to give back to a project so integral to the development of `rXinu`, I have submitted numerous patches and resolved open issues.
+In order to give back to a project so integral to the development of `rXinu`, I have submitted numerous patches and helped resolve issues.
 
 ## [rust-osdev/multiboot2-elf64](https://github.com/rust-osdev/multiboot2-elf64)
 
